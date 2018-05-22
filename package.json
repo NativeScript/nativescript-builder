@@ -1,0 +1,24 @@
+{
+  "name": "nativescript-builder",
+  "version": "0.0.1",
+  "description": "Schematics for NativeScript Angular apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No tests - please write some!\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -w -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "builders": "builders.json",
+  "author": {
+    "name": "NativeScript Team"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@angular-devkit/architect": "~0.6.3",
+    "@angular-devkit/build-optimizer": "~0.6.3",
+    "@angular-devkit/core": "~0.6.3",
+    "@angular/cli": "git+https://github.com/angular/cli-builds.git",
+    "@types/node": "^10.1.2"
+  }
+}

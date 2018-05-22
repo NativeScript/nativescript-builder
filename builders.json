@@ -1,0 +1,11 @@
+{
+    "$schema": "../architect/src/builders-schema.json",
+    "builders": {
+      "nativescript": {
+        "class": "./src",
+        "schema": "./src/schema.json",
+        "description": "Angular cli builder for nativescript applications."
+      }
+    }
+  }
+  
